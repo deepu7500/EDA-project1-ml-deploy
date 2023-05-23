@@ -19,7 +19,7 @@ def index():
 
 @app.route("/predictdata",methods=['GET','POST'])
 def predict_datapoint():
- /#   if request.method=='POST':
+   if request.method=='POST':
 #        Temperature=float(request.form.get('Temperature'))
   #      RH = float(request.form.get('RH'))
    #     Ws = float(request.form.get('Ws'))
